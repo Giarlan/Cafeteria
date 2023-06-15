@@ -35,7 +35,22 @@ section {
 }
 
 section:nth-child(even) {
-    background: #eee;
+    background: #666;
+}
+
+.sub-heading {
+    text-align: center;
+    color: var(--green);
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.heading {
+    text-align: center;
+    color: var(--black);
+    font-size: 3rem;
+    padding: 2rem;
+    text-transform: uppercase;
 }
 
 .btn {
@@ -205,6 +220,11 @@ header .icons #menu-bars {
 
 .swiper-pagination-bullet-active {
     background: var(--green);
+}
+
+.dishes .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
 }
 
 
